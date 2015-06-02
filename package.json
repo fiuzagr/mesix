@@ -1,6 +1,13 @@
 {
   "name": "MESix",
   "version": "0.0.1",
+  "license": "MIT",
+  "homepage": "http://gfiuza.github.io/mesix/",
+  "bugs": "https://github.com/gfiuza/mesix/issues",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/gfiuza/mesix"
+  },
   "scripts": {},
   "devDependencies": {
     "babel-core": "^5.4.7",
