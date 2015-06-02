@@ -1,0 +1,122 @@
+/**
+ * Base styles
+ */
+// normalize.css
+ks-normalize()
+// box-sizing-reset
+// see: http://www.paulirish.com/2012/box-sizing-border-box-ftw/
+ks-box-sizing-reset()
+
+html,
+body
+  base-font()
+  margin 0 auto
+  font-family 'Open Sans', sans-serif
+  font-weight 300
+  letter-spacing 0.1em
+
+body
+  color black
+  background-color white
+
+
+// App container
+#app
+  margin 0 auto
+  width 100%
+  max-width 1600px
+
+// TODO: remove
+.wrapper
+  padding lines(2)
+  text-align center
+
+// Headers vertical rhythm
+h1
+  xx-large()
+  margin-top lines(2)
+  margin-bottom lines(1)
+
+h2
+  x-large()
+  margin-top lines(2)
+  margin-bottom lines(1)
+
+h3
+  large()
+  margin-top lines(1)
+  margin-bottom lines(1)
+
+h4
+  medium()
+  margin-top lines(1)
+  margin-bottom lines(1)
+
+h5
+  small()
+  margin-top lines(1)
+  margin-bottom lines(1)
+
+h6
+  x-small()
+  margin-top lines(1)
+  margin-bottom lines(1)
+
+// focused elem
+*:focus
+  outline thin solid black
+
+// Link style
+a
+  color red
+  text-decoration underline
+
+  &:hover,
+  &:visited
+    color blue
+
+// selected text
+::selection
+  color navy
+  background teal
+
+
+// Block vertical rhythm
+p,
+ul,
+ol,
+pre,
+table,
+blockquote
+  margin-top lines(1)
+  margin-bottom lines(1)
+
+
+// Sanitation
+hr
+  margin -1px auto
+  border none
+  border-top 1px solid
+
+ul ul,
+ol ol,
+ul ol,
+ol ul
+  margin-top 0
+  margin-bottom 0
+
+b,
+strong,
+em,
+small,
+code
+  line-height lines(1)
+
+sup,
+sub
+  position relative
+  top -0.4em
+  vertical-align baseline
+
+sub
+  top 0.4em

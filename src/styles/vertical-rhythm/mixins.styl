@@ -1,0 +1,40 @@
+/**
+ * Vertical Rhythm stylus
+ *
+ * Mixins
+ */
+
+modular-font(size, l=1)
+  font-size ks-modular-scale(1rem, size, ks-golden)
+  line-height lines(l)
+
+base-font()
+  font-size ks-rem-base
+  line-height lines(1)
+
+medium()
+  modular-font 0
+
+smaller()
+  modular-font -0.8
+
+xx-small()
+  modular-font -0.6
+
+x-small()
+  modular-font -0.4
+
+small()
+  modular-font -0.2
+
+large()
+  modular-font 1, 2
+
+x-large()
+  modular-font 2, 2
+
+xx-large()
+  modular-font 3, 3
+
+larger()
+  modular-font 4, 5

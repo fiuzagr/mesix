@@ -1,0 +1,56 @@
+/**
+ * Bar styles
+ */
+
+.bar
+  height lines(4)
+  padding lines(0.5) lines(1)
+  overflow hidden
+  color white
+  background purple
+  text-shadow 2px 2px 2px black
+
+  .bar__title
+    large()
+    float left
+    margin lines(0.5) 0
+    padding 0 lines(0.5)
+    letter-spacing 0.2em
+
+  .bar__description
+    medium()
+    float right
+    margin lines(0.5) 0
+    padding 0 lines(0.5)
+    line-height lines(2)
+    text-align center
+    text-transform uppercase
+    word-spacing 0.4em
+
+  a,
+  a:hover,
+  a:visited
+    color yellow
+    text-decoration none
+
+  a:hover
+    color white
+
+.bar--jumbo
+  @extend .bar
+  height lines(20)
+  text-align center
+
+  .bar__title,
+  .bar__description
+    float none
+    display inline-block
+    text-align center
+    margin lines(3) 0
+
+  .bar__title
+    xx-large()
+
+  .bar__description
+    large()
+    display block

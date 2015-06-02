@@ -1,0 +1,9 @@
+{
+  "name": "MESix",
+  "version": "0.0.1",
+  "dependencies": {
+    "mithril": "~0.2.0",
+    "geopattern": "https://github.com/gfiuza/geopattern.git#~1.2.4"
+  },
+  "devDependencies": {}
+}

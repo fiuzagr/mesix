@@ -1,0 +1,24 @@
+/**
+ * Buttons styles
+ */
+
+btn(bg=red, c=white)
+  medium()
+  display inline-block
+  padding lines(0.5) lines(1)
+  font-weight 700
+  text-align center
+  border none
+  border-radius 3px
+  background-color bg
+  color c
+  cursor pointer
+  text-decoration none
+
+  &:hover,
+  &:visited
+    color c
+    text-decoration none
+
+.btn
+  btn()
