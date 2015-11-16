@@ -6,4 +6,4 @@
 
 ## Author
 
-Guilherme R Fiuza [@gfiuza](https://gfiuza.github.io)
+Guilherme R Fiuza [@fiuzagr](https://fiuzagr.github.io)
